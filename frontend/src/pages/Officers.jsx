@@ -103,11 +103,11 @@ const Officers = () => {
     {
       id: 10,
       name: 'ShaTina Box',
-      position: 'AIAG Chair',
+      position: 'CSCMP Chair',
       year: 'Masters',
       image: ShaTina_BoxIMG,
       objectPosition: 'center top',
-      bio: 'Leading AIAG initiatives and automotive supply chain connections.',
+      bio: 'Leading CSCMP initiatives and supply chain connections.',
     },
     {
       id: 11,
@@ -130,11 +130,11 @@ const Officers = () => {
     {
       id: 13,
       name: 'Aayan Qazi',
-      position: 'CSCMP Chair',
+      position: 'AIAG Chair',
       year: 'Sophomore',
       image: Aayan_QaziImg,
       objectPosition: 'center center',
-      bio: 'Bridging GSCMA with CSCMP national network.',
+      bio: 'Bridging GSCMA with AIAG national network.',
     },
     {
       id: 14,
