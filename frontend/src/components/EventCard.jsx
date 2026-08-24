@@ -52,6 +52,18 @@ const EventCard = ({ event, isAdmin, onDelete, onEdit }) => {
     return `${hour12}:${min} ${period}`;
   };
 
+  const formatEventDate = (dateString) => {
+    if (!dateString) return '';
+    const [year, month, day] = dateString.split('T')[0].split('-').map(Number);
+    const date = new Date(year, month - 1, day); // local time, no UTC conversion
+    return date.toLocaleDateString('en-US', {
+      weekday: 'short',
+      month: 'short',
+      day: 'numeric',
+      year: 'numeric'
+    });
+  };
+
   // Check if description is long enough to need expansion
   const isLongDescription = event.description && event.description.length > 150;
 
@@ -72,12 +84,7 @@ const EventCard = ({ event, isAdmin, onDelete, onEdit }) => {
                 <FaCalendarAlt className="text-primary text-sm" />
               </div>
               <span className="text-base-content/80 font-medium">
-                {new Date(event.date).toLocaleDateString('en-US', { 
-                  weekday: 'short', 
-                  month: 'short', 
-                  day: 'numeric',
-                  year: 'numeric'
-                })}
+                {formatEventDate(event.date)}
               </span>
             </div>
             
