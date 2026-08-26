@@ -1,19 +1,18 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaLinkedin, FaEnvelope } from 'react-icons/fa';
-import tharunikaImg from '../assets/tharunika.jpeg';
-import danielImg from '../assets/daniel.jpeg';
-import connorImg from '../assets/connor.jpeg';
-import Aayan_QaziImg from '../assets/Aayan_Qazi.jpeg';
-import johnImg from '../assets/john.jpeg';
-import makaylaImg from '../assets/makayla.jpeg';
-import aliImg from '../assets/ali.jpeg';
-import zeinabImg from '../assets/zeinab.jpeg';
+import danielImg from '../assets/Daniel_Kuzniar.jpeg';
+import GauravImg from '../assets/Gaurav_Vasudevan.jpeg';
+import MiaImg from '../assets/Mia_Bustamante.jpeg';
+import johnImg from '../assets/John_Lagarde.jpeg';
+import KaylaImg from '../assets/Kayla_Aranki.jpeg';
+import samImg from '../assets/sam_Wilburn.jpeg';
+import AbdullahImg from '../assets/Abdullah.jpeg';
 import aasiyahImg from '../assets/aasiyah.jpeg';
 import danielSImg from '../assets/danielS.jpeg';
 import Joseph_BurtonImg from '../assets/Joseph_Burton.jpeg';
 import ShaTina_BoxIMG from '../assets/ShaTina_Box.jpeg';
-import Ashir_QaziImg from '../assets/Ashir_Qazi.jpeg';
+import Ty_HammoudImg from '../assets/Tyler_Hammoud.jpeg';
 import Tahani_ChoudhuryImg from '../assets/Tahani_Choudhury.jpeg';
 
 const Officers = () => {
@@ -21,104 +20,104 @@ const Officers = () => {
   const officers = [
     {
       id: 1,
-      name: 'Tharunika Vasudevan',
+      name: 'Daniel Kuzniar ',
       position: 'President',
-      year: 'Senior',
-      image: tharunikaImg,
+      /**year: 'Senior',*/
+      image: danielImg,
       objectPosition: 'center center',
       bio: 'Leading GSCMA with vision and dedication to supply chain excellence.',
     },
     {
       id: 2,
-      name: 'Daniel Kuznair',
-      position: 'Co-Vice President',
-      year: 'Junior',
-      image: danielImg,
+      name: 'John LaGarde',
+      position: 'Vice President Marketing',
+      /**year: 'Junior',*/
+      image: johnImg,
       objectPosition: 'center top',
       bio: 'Passionate about logistics and operational efficiency.',
     },
     {
       id: 3,
-      name: 'Connor Diemond',
-      position: 'Co-Vice President',
-      year: 'Senior',
-      image: connorImg,
+      name: 'ShaTina Box ',
+      position: 'Vice President Events',
+      /**year: 'Senior',*/
+      image: ShaTina_BoxIMG,
       objectPosition: 'center center',
       bio: 'Driving innovation in supply chain management.',
     },
     {
       id: 4,
-      name: 'Aasiyah Imthias',
-      position: 'Secretary',
-      year: 'Sophomore',
-      image: aasiyahImg,
+      name: 'Mia Bustamante', // need to update 
+      position: 'Secretary-Treasurer',
+      /**year: 'Sophomore',*/
+      image: MiaImg,
       objectPosition: 'center center',
       bio: 'Keeping GSCMA organized and running smoothly.',
     },
     {
       id: 5,
-      name: 'Makayla Stewart',
+      name: 'Tahani Choudhury',
       position: 'Membership Officer',
-      year: 'Senior',
-      image: makaylaImg,
+      /**year: 'Senior',*/
+      image: Tahani_ChoudhuryImg,
       objectPosition: 'center center',
       bio: 'Building connections and growing our community.',
     },
     {
       id: 6,
-      name: 'Ashir Qazi',
+      name: 'Ty Hammoud',
       position: 'Membership Officer',
-      year: 'Sophomore',
-      image: Ashir_QaziImg,
+      /**year: 'Sophomore',*/
+      image: Ty_HammoudImg,
       objectPosition: 'center center',
       bio: 'Engaging members and fostering collaboration.',
     },
     {
       id: 7,
-      name: 'Tahani Choudhury',
-      position: 'Co-Marketing Officer',
-      year: 'Senior',
-      image: Tahani_ChoudhuryImg,
+      name: 'Sam Wilburn',
+      position: 'Events Officer',
+      /**year: 'Senior',*/
+      image: samImg,
       objectPosition: 'center center',
       bio: 'Amplifying GSCMA\'s voice and brand.',
     },
     {
       id: 8,
-      name: 'John Lagarde',
-      position: 'Co-Marketing Officer',
-      year: 'Senior',
-      image: johnImg,
+      name: 'Daniel Saleem',
+      position: 'Events Officer ',
+      /**year: 'Senior',*/
+      image: danielSImg,
       objectPosition: 'center top',
       bio: 'Creative strategies for impactful outreach.',
     },
     {
       id: 9,
-      name: 'Ali Shuttari',
-      position: 'Treasurer',
-      year: 'Senior',
-      image: aliImg,
+      name: 'Kayla Aranki',
+      position: 'Markeeting Chair',
+      /**year: 'Senior',*/
+      image: KaylaImg,
       objectPosition: 'center top',
       bio: 'Managing finances with precision and transparency.',
     },
     {
       id: 10,
-      name: 'ShaTina Box',
-      position: 'CSCMP Chair',
-      year: 'Masters',
-      image: ShaTina_BoxIMG,
+      name: 'Gaurav Vasudevan',
+      position: 'Website Coordinator',
+      /**year: 'Masters',*/
+      image: GauravImg,
       objectPosition: 'center top',
       bio: 'Leading CSCMP initiatives and supply chain connections.',
     },
     {
       id: 11,
-      name: 'Zeinab Alhilal',
-      position: 'ISM Chair',
-      year: 'Senior',
-      image: zeinabImg,
+      name: 'Abdullah Awartani',
+      position:'Merchandise Coordinator',
+      /**year: 'Senior',*/
+      image: AbdullahImg,
       objectPosition: 'center center',
       bio: 'Coordinating ISM events and professional development.',
     },
-    {
+    /*{
       id: 12,
       name: 'Daniel Saleem',
       position: 'TCD Chair',
@@ -144,7 +143,7 @@ const Officers = () => {
       image: Joseph_BurtonImg,
       objectPosition: 'center center',
       bio: 'Curating GSCMA merchandise and connecting our community.',
-    },
+    },*/
     
   ];
 
@@ -207,16 +206,11 @@ const Officers = () => {
                   </div>
                 </figure>
                 
-                <div className="card-body items-center text-center pt-6">
-                  <h2 className="card-title text-xl font-bold">{officer.name}</h2>
-                  <div className="badge badge-primary badge-lg font-semibold">{officer.position}</div>
-                  <p className="text-sm text-base-content/60 font-medium">{officer.year}</p>
+                <div className="card-body items-center justify-center text-center pt-6">
+                 <h2 className="card-title text-xl font-bold">{officer.name}</h2>
+                   <div className="badge badge-primary badge-lg font-semibold">{officer.position}</div>
+                     <p className="text-sm text-base-content/60 font-medium">{officer.year}</p>
                   
-                  {officer.bio && (
-                    <p className="text-sm text-base-content/70 mt-2 leading-relaxed">
-                      {officer.bio}
-                    </p>
-                  )}
 
                   {/* Social Links (Optional - uncomment if you have social media) */}
                   {/* <div className="flex gap-2 mt-4">
