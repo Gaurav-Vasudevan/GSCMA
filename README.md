@@ -2,7 +2,7 @@
 
 A full-stack React application for the Graduate Student Computer and Mathematical Association (GSCMA) at Wayne State University.
 
-## Project Structure
+## Project Structure.
 
 ```
 my-react-app/
