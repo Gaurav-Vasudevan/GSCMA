@@ -5,6 +5,11 @@ import { motion, useScroll, useTransform, useInView, useReducedMotion } from 'fr
 import { useAuth } from '../context/AuthContext';
 import { FaUsers, FaBook, FaChartLine } from 'react-icons/fa';
 
+function parseLocalDate(dateString) {
+  const [year, month, day] = dateString.split('T')[0].split('-').map(Number);
+  return new Date(year, month - 1, day);
+}
+
 const Home = () => {
   const { currentUser } = useAuth();
   const [events, setEvents] = useState([]);
@@ -249,7 +254,7 @@ const Home = () => {
                             <p className="text-xs sm:text-sm text-base-content/60 flex items-start gap-2">
                               <span className="shrink-0">📅</span>
                               <span>
-                                {event.date ? new Date(event.date).toLocaleDateString() : ''} • {event.time}
+                                {event.date ? parseLocalDate(event.date).toLocaleDateString() : ''} • {event.time}
                               </span>
                             </p>
                             <p className="text-xs sm:text-sm text-base-content/60 flex items-start gap-2">
