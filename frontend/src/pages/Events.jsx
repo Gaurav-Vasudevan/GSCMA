@@ -126,8 +126,10 @@ const Events = () => {
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2 sm:mb-4">
             Upcoming Events
           </h1>
-          <p className="text-base sm:text-lg text-base-content/70">
-            Join us for exciting events and networking opportunities
+          <p className="text-lg sm:text-xl font-bold text-base-content/70">
+            Join us for exciting events and networking opportunities!!
+            <br />
+            Whether you are a member or a non-member, to RSVP you must create an account on the GSCMA website
           </p>
         </div>
         {isAdmin && (

@@ -93,7 +93,7 @@ const Officers = () => {
     {
       id: 9,
       name: 'Kayla Aranki',
-      position: 'Markeeting Chair',
+      position: 'Marketing  Chair',
       /**year: 'Senior',*/
       image: KaylaImg,
       objectPosition: 'center top',
