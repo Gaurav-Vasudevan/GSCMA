@@ -29,6 +29,16 @@ const Officers = () => {
     },
     {
       id: 2,
+      name: 'Mia Bustamante',
+      position: 'Executive Vice President',
+      /**year: 'Sophomore',*/
+      image: MiaImg,
+      objectPosition: 'center center',
+      bio: 'Keeping GSCMA organized and running smoothly.',
+
+    },
+    {
+      id: 3,
       name: 'John LaGarde',
       position: 'Vice President Marketing',
       /**year: 'Junior',*/
@@ -37,22 +47,13 @@ const Officers = () => {
       bio: 'Passionate about logistics and operational efficiency.',
     },
     {
-      id: 3,
+      id: 4,
       name: 'ShaTina Box ',
       position: 'Vice President Events',
       /**year: 'Senior',*/
       image: ShaTina_BoxIMG,
       objectPosition: 'center center',
       bio: 'Driving innovation in supply chain management.',
-    },
-    {
-      id: 4,
-      name: 'Mia Bustamante', // need to update 
-      position: 'Secretary-Treasurer',
-      /**year: 'Sophomore',*/
-      image: MiaImg,
-      objectPosition: 'center center',
-      bio: 'Keeping GSCMA organized and running smoothly.',
     },
     {
       id: 5,
